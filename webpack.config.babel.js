@@ -22,7 +22,7 @@ const config = {
   plugins: [new VueLoaderPlugin()],
   // webpack-dev-server
   devServer: {
-    open: true,
+    open: 'Google Chrome',
     inline: true,
     port: 8080,
     watchContentBase: true,
